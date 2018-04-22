@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Encoder</title>
+</head>
+<body>
+
+<h2>Encoder</h2>
+
+<form th:object="${message}" th:action="@{/}" method="post">
+    <input th:field="*{text}"/>
+    <button type="submit">encode</button>
+</form>
+
+<br/>
+
+<h2 th:text="${plain}"></h2>
+<h2 th:text="${encoded}"></h2>
+
+</body>
+</html>

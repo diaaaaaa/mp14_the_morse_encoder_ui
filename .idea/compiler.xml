@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="encoder" />
         <module name="morse" />
+        <module name="ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="encoder" target="9" />
       <module name="morse" target="9" />
+      <module name="ui" target="9" />
     </bytecodeTargetLevel>
   </component>
 </project>

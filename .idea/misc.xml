@@ -5,7 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/encoder/pom.xml" />
         <option value="$PROJECT_DIR$/morse/pom.xml" />
+        <option value="$PROJECT_DIR$/ui/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="9.0" project-jdk-type="JavaSDK" />
 </project>
